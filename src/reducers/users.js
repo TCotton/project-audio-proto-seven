@@ -2,7 +2,7 @@ import {
 	FETCH_USERS
 } from '../actions/types';
 
-export default function(state = false, action = null) {
+export default function(state = [], action = null) {
 
 	switch (action.type) {
 
