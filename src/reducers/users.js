@@ -7,7 +7,8 @@ export default function(state = [], action = null) {
 	switch (action.type) {
 
 		case FETCH_USERS:
-			return [...state, ...action.payload];
+
+			return [...state, ...action.payload.data];
 			break;
 
 		default:

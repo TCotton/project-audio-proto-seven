@@ -13,8 +13,8 @@ class UserList extends Component {
 
 			<div className="card card-block" key={user.name}>
 				<h4 className="card-title">{user.name} Here</h4>
-				<p className="card-text">Cheese Factory</p>
-				<p><a className="btn btn-primary">Email</a></p>
+				<p className="card-text">{user.company.name}</p>
+				<p><a className="btn btn-primary" href={`http://` + user.website}>Website</a></p>
 			</div>
 
 		)
