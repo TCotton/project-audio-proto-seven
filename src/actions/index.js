@@ -2,7 +2,7 @@ import {
 	FETCH_USERS
 } from './types';
 
-export function featchUseres() {
+export function fetchUsers() {
 
 	return {
 		type: FETCH_USERS,
